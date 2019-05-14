@@ -1,6 +1,6 @@
 ---
 - name: create a directory
-  hosts: test-db.server
+  hosts: staging-web.server
   tasks:
     - name: create directory realman
       file: path=/home/boma/realman state=directory 
