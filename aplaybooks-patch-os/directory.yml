@@ -2,8 +2,8 @@
 - name: create a directory
   hosts: test-db.server
   tasks:
-    - name: create directory folder
-      file: path=/home/boma/folder state=directory 
+    - name: create directory realman
+      file: path=/home/boma/realman state=directory 
     - name: copy test2 file to remote machine
-      copy: src=/home/boma/test2 dest=/home/boma/folder
+      copy: src=/home/boma/test2 dest=/home/boma/realman
 
